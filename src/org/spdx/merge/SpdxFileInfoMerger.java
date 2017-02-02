@@ -52,6 +52,7 @@ public class SpdxFileInfoMerger{
 	 * @return
 	 * @throws InvalidSPDXAnalysisException
 	 */
+	@Deprecated
 	public SpdxFile[] mergeFileInfo(SpdxDocument[] subDocs)throws InvalidSPDXAnalysisException{
 			
 	        //an array to store an deep copy of file information from master document.
@@ -129,6 +130,7 @@ public class SpdxFileInfoMerger{
 	 * @param spdxFile
 	 * @return foundDoapProject
 	 */
+	@Deprecated
 	public boolean checkDoapProject (SpdxFile spdxFile){
 		boolean foundDoapProject = false;
 		if(spdxFile.getArtifactOf() != null && spdxFile.getArtifactOf().length > 0){
@@ -143,6 +145,7 @@ public class SpdxFileInfoMerger{
 	 * @param subArtifactOf
 	 * @return
 	 */
+	@Deprecated
 	public DoapProject[] mergeDOAPInfo(DoapProject[] masterArtifactOf, DoapProject[] subArtifactOf){
 		List<DoapProject> retval = Lists.newArrayList(masterArtifactOf);
 		
@@ -191,11 +194,13 @@ public class SpdxFileInfoMerger{
 		clonedFilesList.toArray(clonedFilesArray);
 		return clonedFilesArray;	
 	}
+	
 	/**
 	 * 
 	 * @param orgProjectArray
 	 * @return clonedProjectArray
 	 */
+	@Deprecated
 	public DoapProject[] cloneDoapProject(DoapProject[] orgProjectArray){
 		DoapProject[] clonedProjectArray = new DoapProject[orgProjectArray.length];
 		for(int j = 0; j < orgProjectArray.length; j++){

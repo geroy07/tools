@@ -1,5 +1,5 @@
 /**
- * Copyright (c) Gang Ling.
+ * Copyright (c) 2016 Gang Ling.
  *
  *   Licensed under the Apache License, Version 2.0 (the "License");
  *   you may not use this file except in compliance with the License.
@@ -12,23 +12,14 @@
  *   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  *   See the License for the specific language governing permissions and
  *   limitations under the License.
- *
-*/
+ * 
+ */
 package org.spdx.merge;
 
-import org.spdx.rdfparser.model.SpdxDocument;
-import org.spdx.rdfparser.model.SpdxItem;
-
 /**
- * @author Gang Ling
+ * @author Gang
  *
  */
-public class SpdxItemMerger {
-		private SpdxItem itemInfoResult = null;
-		private SpdxDocument[] allDocs;
-		public SpdxItemMerger(SpdxItem itemInfoResult2, SpdxDocument[] mergeDocs){
-			this.itemInfoResult = itemInfoResult2;
-			this.allDocs = mergeDocs;
-		}
+public class SpdxPackageMerger {
 
 }
