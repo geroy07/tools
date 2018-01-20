@@ -1,0 +1,65 @@
+{
+	"@context":
+	{
+	    "spdx" : "http://spdx.org/rdf/terms#",
+	    "doap" : "http://usefulinc.com/ns/doap#",
+	    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+	    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+		"licenseListVersion": {
+		      "@id" : "spdx:licenseListVersion"
+		},
+		"licenses": {
+			"@id": "",
+			"@type": "spdx:License"
+		}
+		"exceptions" {
+			"@id": "",
+			"@type": "spdx:LicenseException"
+		}
+		"licenseId": {
+		      "@id" : "spdx:licenseId"
+		},
+		"licenseText": {
+		      "@id" : "spdx:licenseText"
+		},
+		"extractedText": {
+		      "@id" : "spdx:extractedText"
+		},
+		"name": {
+		      "@id" : "spdx:name"
+		},
+		"standardLicenseHeader": {
+		      "@id" : "spdx:standardLicenseHeader"
+		},
+		"standardLicenseHeaderTemplate": {
+		      "@id" : "spdx:standardLicenseHeaderTemplate"
+		},
+		"standardLicenseTemplate": {
+			      "@id" : "spdx:standardLicenseTemplate"
+				},
+		"isOsiApproved": {
+		      "@id" : "spdx:isOsiApproved"
+		},
+		"isFsfLibre": {
+		      "@id" : "spdx:isFsfLibre"
+		},
+		"licenseExceptionId": {
+		      "@id" : "spdx:licenseExceptionId"
+		},
+		"licenseExceptionText": {
+		      "@id" : "spdx:licenseExceptionText"
+		},
+		"licenseExceptionTemplate": {
+		      "@id" : "spdx:licenseExceptionTemplate"
+		},
+		"isDeprecatedLicenseId": {
+		      "@id" : "spdx:isDeprecatedLicenseId"
+		},
+		"seeAlso" : {
+		      "@id" : "rdfs:seeAlso"
+		    },
+	    "comment" : {
+	        "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+	      },
+	}
+}
